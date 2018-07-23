@@ -18,7 +18,7 @@ def find_the_cheese(list)
   #cheese = []
   #list.detect {|cheese_check| cheese << cheese_check.include?(cheese_types.to_s)} 
   #cheese
-  cheese << list.find {|cheese_check| cheese_check.include?(cheese_types.to_s)}
+  cheese = list.find {|cheese_check| cheese_check.include?(cheese_types.to_s)}
   cheese 
 end
  
