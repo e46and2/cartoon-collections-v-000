@@ -22,5 +22,8 @@ def find_the_cheese(list)
   #cheese
   #cheese = []
   #list.find {|cheese_check| cheese << cheese_check.include?(cheese_types.to_s)} ? cheese : nil
+  list.detect do |item| 
+  cheese_types.include?(item) 
+end
 end
  
